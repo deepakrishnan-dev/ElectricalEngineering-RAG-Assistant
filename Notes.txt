@@ -1,0 +1,28 @@
+Project : : Industrial Rag Assistant
+
+Method - RAG : Retrieval Augmented Generation 
+create environment .venv
+python 3.11
+Install PyPDF for Pdf reader
+pdf extraction- Extract_PDF.py
+
+chunking:
+
+embedingg:
+sentence-transformer  : This library provides pretrained models to convert the sentence to numerical vectors
+
+Embedding dimension is the number of numerical values in an embedding vector. In my project, 
+the all-MiniLM-L6-v2 model generates a 384-dimensional vector for each document chunk.
+
+vector DB:
+using chromaDB - install ChromaDB
+
+In my current ChromaDB setup, I use the default L2 (Euclidean) distance for vector similarity search.
+
+Created Prompt
+
+LLM
+Local LLm used ollama : llama3.2:3b
+
+run llama3
+ollama run llama3.2:3b
