@@ -13,7 +13,7 @@ def main():
             print("Goodbye!")
             break
 
-        answer = rag.answer(query)
+        answer, context = rag.answer(query)
 
         print("\n--- Answer ---")
         print(answer)

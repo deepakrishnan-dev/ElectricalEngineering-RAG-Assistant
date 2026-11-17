@@ -11,19 +11,21 @@ class RAGPipeline:
     def answer(self, question):
 
         retrieved_chunks = get_similar_chunks(
-            question,
-            top_k=self.top_k
-        )
+                         question,
+                         top_k=self.top_k
+                              )
 
-        context = "\n\n".join(
-            retrieved_chunks["documents"][0]
-        )
+        contexts = retrieved_chunks["documents"][0]
+
+        context = "\n\n".join(contexts)
 
         prompt = create_prompt(
-            question,
-            context
-        )
+                   question,
+                   context
+                )
 
         answer = generate_response(prompt)
 
-        return answer
+        
+        
+        return answer, contexts

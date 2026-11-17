@@ -17,7 +17,7 @@ Industrial RAG Assistant is a document-based AI assistant that uses Retrieval-Au
 * Context-grounded prompt generation
 * Local LLM inference using Ollama
 * Interactive question-answering through the terminal
-* Automated evaluation with RAGAS *(planned)*
+* Automated evaluation with RAGAS 
 
 ## Project Structure
 
