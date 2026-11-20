@@ -155,12 +155,4 @@ RAGAS will be used to evaluate:
 
 The evaluation will help identify whether errors originate from document retrieval or answer generation.
 
-## Future Improvements
 
-* RAGAS evaluation pipeline
-* Automated evaluation reports
-* Improved retrieval strategies
-* Metadata-based filtering
-* API deployment using FastAPI
-* Web-based user interface
-* Additional engineering documents
