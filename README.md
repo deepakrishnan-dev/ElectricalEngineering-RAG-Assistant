@@ -1,4 +1,4 @@
-# Industrial RAG Assistant
+# Augmented LLM Application (RAG Pipeline)
 
 An end-to-end Retrieval-Augmented Generation (RAG) application for answering Electrical Engineering questions from a technical PDF document. The project uses semantic chunking, sentence-transformer embeddings, ChromaDB vector search, and a local Llama 3.2 model through Ollama to generate grounded responses.
 
